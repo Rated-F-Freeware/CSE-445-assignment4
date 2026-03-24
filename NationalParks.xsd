@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="https://rated-f-freeware.github.io/CSE-445-assignment4/NationalParks.xsd"
     elementFormDefault="qualified"
-    xmlns="http://tempuri.org/XMLSchema.xsd"
-    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns="https://rated-f-freeware.github.io/CSE-445-assignment4/NationalParks.xsd"
+    xmlns:mstns="https://rated-f-freeware.github.io/CSE-445-assignment4/NationalParks.xsd"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
 >
 	<xs:element name="NationalParks" type="NationalParksType"/>
