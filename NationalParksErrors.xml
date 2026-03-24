@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NationalPark xmlns="https://rated-f-freeware.github.io/CSE-445-assignment4/NationalParks.xsd">
+	<!--Wrong parent element name-->
+	<NationalPark>
+		<Name>"GrandCanyon"</Name>
+		<Phone>"641-976-7782"</Phone>
+		<Address NearestAirport="Flagstaff">
+			<Number>"18"</Number>
+			<Street>"S Entrance Road"</Street>
+			<City>"Grand Canyon"</City>
+			<State>"Arizona"</State>
+			<Zip>"85031"</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="3.8">
+		<Name>"Indiana Dunes"</Name>
+		<Phone>"219 395-1872"</Phone>
+		<Phone>"641-975-6673"</Phone>
+		<!--Missing required attribute-->
+		<Address>
+			<Number>"1100"</Number>
+			<Street>" North Mineral Springs Road"</Street>
+			<City>"Porter"</City>
+			<State>"IN"</State>
+			<Zip>"46304"</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>"Hot Springs"</Name>
+		<!--Missing phone number-->
+		<Address NearestAirport="Garland County">
+			<Number>"101"</Number>
+			<Street>"S Entrance Road"</Street>
+			<City>"Hot Springs"</City>
+			<State>"AR"</State>
+			<Zip>"71901"</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark Rating="5">
+		<Name>"Pinnacles"</Name>
+		<Phone>"541-976-7912"</Phone>
+		<Address NearestAirport="Paicines">
+			<Number>"5000"</Number>
+			<Street>"East Entrance Road"</Street>
+			<City>"Paicines"</City>
+			<State>"CA"</State>
+			<Zip>"95043"</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>"Cuyahoga Valley"</Name>
+		<Phone>"615-970-7201"</Phone>
+		<Address NearestAirport="Brecksvhile">
+			<Number>"15610"</Number>
+			<Street>"Vaughn Road"</Street>
+			<City>"Brecksville"</City>
+			<State>"OH"</State>
+			<Zip>"44141"</Zip>
+			<!--Missing an address element-->
+	</NationalPark>
+	<NationalPark>
+		<Name>"Congaree"</Name>
+		<Name>"congress"</Name>
+		<!--This has two names for the National Park-->
+		<Phone>"841-772-4390"</Phone>
+		<Address NearestAirport="Hopkin">
+			<Number>"100"</Number>
+			<Street>"National Park Road"</Street>
+			<City>"Hopkins"</City>
+			<State>"SC"</State>
+			<Zip>"29061"</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>"Gateway Arch"</Name>
+		<Phone>"641-976-6452"</Phone>
+		<Address NearestAirport="St. Louis Lambert">
+			<Number>"11"</Number>
+			<Street>"North 4th Street"</Street>
+			<City>"St. Louis"</City>
+			<State>"MO"</State>
+			<Zip>"63102"</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>"Mammoth Cave"</Name>
+		<Phone>"272-730-3471"</Phone>
+		<Address NearestAirport="Mammoth county">
+			<Number>"7"</Number>
+			<Street>"P.O. Box 7"</Street>
+			<City>"Mammoth Cave"</City>
+			<State>"KY"</State>
+			<Zip>"42259"</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>"Biscayne"</Name>
+		<Phone>"710-298-4392"</Phone>
+		<Address NearestAirport="Flagstaff">
+			<Number>"9700"</Number>
+			<Street>"SW 328th Street Sir Lancelot Jones Way"</Street>
+			<City>"Homestead"</City>
+			<State>"FL"</State>
+			<Zip>"33033"</Zip>
+		</Address>
+	</NationalPark>
+	<NationalPark>
+		<Name>"Voyageurs"</Name>
+		<Phone>"241-961-7235"</Phone>
+		<Address NearestAirport="Flagstaff">
+			<Number>"360"</Number>
+			<Street>"Hwy 11 East"</Street>
+			<City>"International Falls"</City>
+			<State>"MN"</State>
+			<Zip>"56649"</Zip>
+		</Address>
+	</NationalPark>
+</NationalPark>
