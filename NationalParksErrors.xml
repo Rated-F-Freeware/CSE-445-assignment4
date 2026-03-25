@@ -27,6 +27,7 @@
 	</NationalPark>
 	<NationalPark>
 		<Name>"Hot Springs"</Name>
+		<Phone>"219 395-1872"</Phone>
 		<!--Missing phone number-->
 		<Address NearestAirport="Garland County">
 			<Number>"101"</Number>
