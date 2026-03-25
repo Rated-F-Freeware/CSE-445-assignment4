@@ -55,7 +55,7 @@
 			<Street>"Vaughn Road"</Street>
 			<City>"Brecksville"</City>
 			<State>"OH"</State>
-		</Address>
+			<Zip>"92034</Zip>
 			<!--Missing an address element-->
 	</NationalPark>
 	<NationalPark>
