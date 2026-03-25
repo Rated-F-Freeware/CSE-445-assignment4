@@ -17,7 +17,7 @@
 		<Phone>"219 395-1872"</Phone>
 		<Phone>"641-975-6673"</Phone>
 		<!--Missing required attribute-->
-		<Address NearestAirport="Flagstaff">
+		<Address>
 			<Number>"1100"</Number>
 			<Street>" North Mineral Springs Road"</Street>
 			<City>"Porter"</City>
@@ -27,7 +27,6 @@
 	</NationalPark>
 	<NationalPark>
 		<Name>"Hot Springs"</Name>
-		<Phone>"219 395-1872"</Phone>
 		<!--Missing phone number-->
 		<Address NearestAirport="Garland County">
 			<Number>"101"</Number>
@@ -56,7 +55,7 @@
 			<Street>"Vaughn Road"</Street>
 			<City>"Brecksville"</City>
 			<State>"OH"</State>
-			<Zip>"44141"</Zip>
+		</Address>
 			<!--Missing an address element-->
 	</NationalPark>
 	<NationalPark>
