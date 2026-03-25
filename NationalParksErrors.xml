@@ -17,7 +17,7 @@
 		<Phone>"219 395-1872"</Phone>
 		<Phone>"641-975-6673"</Phone>
 		<!--Missing required attribute-->
-		<Address>
+		<Address NearestAirport="Flagstaff">
 			<Number>"1100"</Number>
 			<Street>" North Mineral Springs Road"</Street>
 			<City>"Porter"</City>
