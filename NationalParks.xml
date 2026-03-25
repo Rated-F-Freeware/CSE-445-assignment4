@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NationalParks 
   xmlns="https://rated-f-freeware.github.io/CSE-445-assignment4/NationalParks.xsd"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="https://rated-f-freeware.github.io/CSE-445-assignment4/NationalParks.xsd https://rated-f-freeware.github.io/CSE-445-assignment4/NationalParks.xsd">
 	<NationalPark>
 		<Name>"GrandCanyon"</Name>
